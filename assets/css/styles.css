@@ -524,7 +524,7 @@ img {
 .proj__post-link{
     display: flex;
     flex-direction: row;
-    column-gap: 2rem;
+    column-gap: 8px;
 }
 
 
