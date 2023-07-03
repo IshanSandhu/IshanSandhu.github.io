@@ -418,6 +418,7 @@ img {
 
 
 #about.about.section{
+  display: none;
   padding-top: 18rem;
 }
 
@@ -752,6 +753,7 @@ img {
 
 .highlight-link {
     display: inline-block;
+    margin-top: 11px;
     box-shadow: inset 0 -2px 0 var(--first-color-lighter);
     color: inherit;
     box-sizing: inherit;
@@ -1074,6 +1076,10 @@ img {
 
   .about__buttons{
       justify-content: initial;
+  }
+
+  #qualification.qualification.section{
+    margin-top: 10rem;
   }
 
   .qualification__tabs {
