@@ -103,6 +103,17 @@ function scrollUp(){
 }
 window.addEventListener('scroll', scrollUp)
 
+// nav box shadow when scrolling
+function scrollHeader(){
+    const nav = document.getElementById('header');
+    if (this.scrollY > 75) {
+        nav.classList.add('nav-box-shadow');
+    } else {
+        nav.classList.remove('nav-box-shadow');
+    }
+}
+window.addEventListener('scroll', scrollHeader);
+
 /*night/light theme*/ 
 /*==================== DARK LIGHT THEME ====================*/
 const themeButton = document.getElementById('theme-button')
